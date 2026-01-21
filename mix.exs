@@ -68,7 +68,7 @@ defmodule OLED.MixProject do
   defp deps do
     [
       {:circuits_spi, "~> 1.3"},
-      {:circuits_i2c, "~> 1.0.1"},
+      {:circuits_i2c, "~> 2.0"},
       {:circuits_gpio, "~> 1.0.1"},
       {:ex_doc, "~> 0.28", only: :dev, runtime: false},
       {:earmark, "~> 1.4", only: :dev, runtime: false},
